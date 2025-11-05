@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "MAVLink Bridge",
+	"Description": "A plugin that connects Unreal Engine to MAVLink devices via TCP or UDP and broadcasts messages to Blueprints.",
+	"Category": "Networking",
+	"CreatedBy": "Nitin Nishad",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "MavlinkBridge",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
