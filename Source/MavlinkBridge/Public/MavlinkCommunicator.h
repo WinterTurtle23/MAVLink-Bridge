@@ -11,7 +11,7 @@
 
 // MAVLink headers (C code)
 extern "C" {
-#include "common/mavlink.h"
+#include "c_library/common/mavlink.h"
 }
 
 #include "MavlinkCommunicator.generated.h"
